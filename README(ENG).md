@@ -3,12 +3,9 @@ This project presents a regression model developed to predict the prices of used
 
 All numerical features were normalized using TensorFlow's Normalization layer to ensure faster and more stable learning. The artificial neural network (ANN) consists of:
 
-# 1
-Input Layer
-# 2
-3 Hidden Layers (128 neurons each, ReLU activation)
-# 3
-1 Output Layer (predicts the car price)
+# Input Layer
+# 3 Hidden Layers (128 neurons each, ReLU activation)
+# 1 Output Layer (predicts the car price)
 
 The model outputs a continuous value representing the estimated car price. The loss function used is Mean Absolute Error (MAE) and the evaluation metric is Root Mean Squared Error (RMSE).
 
